@@ -1,0 +1,37 @@
+{
+    // Automatically fix all issues on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+
+    // Show inline suggestions while typing
+    "editor.inlineSuggest.enabled": true,
+
+    // Enable GitHub Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+
+    // Use the One Dark Pro color theme
+    "workbench.colorTheme": "One Dark Pro",
+
+    // Don't ask for confirmation when deleting files
+    "explorer.confirmDelete": false,
+
+    // Use independent colors for each bracket pair
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+    // Don't open any files on startup
+    "workbench.startupEditor": "none",
+
+    // Don't ask for confirmation when dragging and dropping files
+    "explorer.confirmDragAndDrop": false,
+
+    // Disable AWS telemetry
+    "aws.telemetry": false,
+
+    "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+}
