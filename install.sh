@@ -21,8 +21,12 @@ function install_linux {
 }
 
 function run_scripts {
+    SCRIPT_PATH="$(dirname "${BASH_SOURCE[0]}")"
     # Loop through the list of scripts
     for script in "$@"; do
+        # Make relative from script path
+        script="$SCRIPT_PATH/$script"
+        
         # Check if script exists and is executable
         if [[ -x "$script" && -f "$script" ]]; then
             "./$script"

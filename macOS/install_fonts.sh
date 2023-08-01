@@ -18,5 +18,4 @@ if brew list --cask font-source-code-pro >/dev/null 2>&1; then
 else
     echo "Installing Source Code Pro font..."
     brew tap homebrew/cask-fonts && brew install --cask font-source-code-pro
-    echo -n "✔"
 fi
