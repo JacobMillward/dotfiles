@@ -1,7 +1,6 @@
 # .files
 
-This repository contains my dotfiles for macOS and Linux. Dotfiles are configuration files that are used to customize the behavior of various command-line tools and applications.
-
+This repository contains my dotfiles for macOS and Linux.
 ## Installation
 
 To install these dotfiles, clone this repository to your home directory:
@@ -16,7 +15,7 @@ Then, run the installation script:
 ./install.sh
 ```
 
-The installation script will copy symbolic links from the dotfiles in this repository to their corresponding locations in your home directory.
+The installation script will copy symbolic links from the dotfiles in this repository to their corresponding locations in your home directory. The scripts _should_ be idempotent, so it should be safe to run the install script multiple times.
 
 ## What's Included
 ### macOS
