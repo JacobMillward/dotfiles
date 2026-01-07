@@ -1,0 +1,10 @@
+[user]
+	name = Jacob Millward-Yuan
+	email = jacob@seatfrog.com
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+	useForceIfIncludes = true
+[pull]
+	ff = only
